@@ -19,6 +19,11 @@ It combines **speech recognition**, **intent classification**, and a **tool-driv
 Built with a modular design, VoizAI serves as both a **reference implementation of a modern AI voice agent** and a **foundation for extensible, production-grade deployments**.
 
 ---
+## 🚀 Demo Video
+[![Project Demo Video](https://github.com/CoderSATTY/Voice-to-Voice/blob/main/src/voiz%20ai%20thumbnail.png?raw=true)](https://youtu.be/Raw870zI6Jg?si=ugINMgmyP3aeLUZV)
+
+
+*Click the thumbnail above to watch the demo video for some insane outputs*
 
 ## 🌐 Key Capabilities
 
@@ -124,6 +129,7 @@ Once running, VoizAI supports commands such as:
 - **Open Youtube** -> Launches YouTube in browser
 - **Turn up the brightness** -> Performs system control to change display brightness.
 - **Who is the CEO of Tesla** -> Web search + Answer Synthesis
+
 Every request flows through:
 1. **Speech Recognition** using Speech-to-Text (STT) Engine
 2. **Intent Classifier**, parses the inputted command and helps in selection of the appropriate tool to be used.
