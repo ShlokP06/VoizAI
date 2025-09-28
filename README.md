@@ -1,7 +1,7 @@
 # VoizAI · Next-Generation Voice Intelligence Platform
 
 <p align="center">
-  <img src="demo.png" alt="VoizAI Logo" width="200"/>
+  <img src="demo.png" alt="VoizAI Logo" width="1000"/>
 </p>
 
 <p align="center">
