@@ -20,7 +20,7 @@ Built with a modular design, VoizAI serves as both a **reference implementation 
 
 ---
 ## 🚀 Demo Video
-[![Project Demo Video](https://github.com/CoderSATTY/Voice-to-Voice/blob/main/src/voiz%20ai%20thumbnail.png?raw=true)](https://youtu.be/Raw870zI6Jg?si=ugINMgmyP3aeLUZV)
+[![Project Demo Video](PAGE)](https://youtu.be/Raw870zI6Jg?si=ugINMgmyP3aeLUZV)
 
 
 *Click the thumbnail above to watch the demo video for some insane outputs*
