@@ -9,7 +9,7 @@
 </p>
 
 ---
-[![License: MIT]](LICENSE)
+[License: Apache 2.0](LICENSE)
 
 ## ✨ Overview
 
@@ -33,6 +33,7 @@ Built with a modular design, VoizAI serves as both a **reference implementation 
 ---
 
 ## 🏗 Architecture
+```bash
                 ┌────────────┐
  🎤 Speech ───▶ │ Frontend UI │ ───▶ WebSocket/REST
                 └──────┬─────┘
@@ -50,7 +51,7 @@ Built with a modular design, VoizAI serves as both a **reference implementation 
                 │ Agent Tools│
                 │  (plugins) │
                 └────────────┘
-
+```
 - **Frontend** — Captures speech, provides interactive UI.  
 - **Backend Core** — Manages recognition, intent classification, orchestration.  
 - **Agent Tools** — Modular plug-ins that implement system control, app launching, web search, etc.  
