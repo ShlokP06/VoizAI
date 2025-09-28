@@ -1,7 +1,7 @@
 # VoizAI · Next-Generation Voice Intelligence Platform
 
 <p align="center">
-  <img src="page.png" alt="VoizAI Logo" width="200"/>
+  <img src="demo.png" alt="VoizAI Logo" width="200"/>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ Built with a modular design, VoizAI serves as both a **reference implementation 
 
 ---
 ## 🚀 Demo Video
-[![Demo](DEMO)](https://youtu.be/Raw870zI6Jg?si=ugINMgmyP3aeLUZV)
+[![demo](demo.png)](https://youtu.be/Raw870zI6Jg?si=ugINMgmyP3aeLUZV)
 
 
 *Click the thumbnail above to watch the demo video for some insane outputs*
