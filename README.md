@@ -59,6 +59,7 @@ Built with a modular design, VoizAI serves as both a **reference implementation 
 ---
 
 ## 📂 Repository Layout
+```bash
 VoizAI/
 ├── Frontend/ # Web UI layer (voice capture, interface)
 ├── src/ # Core backend (speech, intent, orchestration)
@@ -69,16 +70,15 @@ VoizAI/
 ├── agent_tools/ # Tool modules (system control, web, apps)
 ├── requirements.txt
 └── README.md
-
-
+```
 ---
 
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
-- **Python 3.8+**  
-- **Node.js** (optional, for advanced frontend builds)  
-- API keys for speech / LLM providers (e.g. OpenAI, Whisper, etc.)  
+- **Python 3.9+**
+- **HTML, CSS, JavScript for Frontend**  
+- **API keys** for speech / LLM providers (e.g. OpenAI, Whisper, etc.)  
 
 ### Quickstart
 
@@ -119,18 +119,16 @@ cd Frontend
 python -m http.server 8080
 ```
 
-### Usage
+## Usage
 Once running, VoizAI supports commands such as:
 - **Open Youtube** -> Launches YouTube in browser
 - **Turn up the brightness** -> Performs system control to change display brightness.
 - **Who is the CEO of Tesla** -> Web search + Answer Synthesis
 Every request flows through:
-1. Speech Recognition using Speech-to-Text (STT) Engine
-2. Intent Classifier, parses the inputted command and helps in selection of the appropriate tool to be used.
-3. Agent execution - the selected tool is used to perform the required procedure, and the generated response is passed through a Text-to-Speech(TTS) Engine to generate audio responses.
+1. **Speech Recognition** using Speech-to-Text (STT) Engine
+2. **Intent Classifier**, parses the inputted command and helps in selection of the appropriate tool to be used.
+3. **Agent execution** - the selected tool is used to perform the required procedure, and the generated response is passed through a Text-to-Speech(TTS) Engine to generate audio responses.
 
-### License
-This project is licensed under the **Apache 2.0 License**.
-See the [LICENSE]()
+
 
 
